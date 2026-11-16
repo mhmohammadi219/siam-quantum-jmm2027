@@ -631,7 +631,7 @@
                   aria-label="Open details for TBD">
             <div class="time">4:30 PM</div>
             <div>
-              <div class="talk-title">TBD</div>
+              <div class="talk-title">Quantum Speedups for Sampling and Non-convex Optimization with Stochastic Oracles</div>
               <div class="speaker">Chunhao Wang</div>
               <div class="affiliation">Pennsylvania State University</div>
               <div class="details-hint">View abstract →</div>
@@ -642,10 +642,10 @@
             <div class="dialog-inner">
               <button class="dialog-close" type="button" onclick="closeTalk('s2-7')" aria-label="Close">×</button>
               <div class="dialog-time">4:30 PM</div>
-              <h3>TBD</h3>
+              <h3>Quantum Speedups for Sampling and Non-convex Optimization with Stochastic Oracles</h3>
               <p class="dialog-speaker"><strong>Chunhao Wang</strong> · Pennsylvania State University</p>
               <h4>Abstract</h4>
-              <p>TBD</p>
+              <p>We present quantum speedups for sampling from probability distributions of the form $\pi \propto e^{-f}$, where $f:\mathbb{R}^d\mapsto \mathbb{R}$. We consider two oracle models: (i) a stochastic gradient oracle, where $f$ is in finite sum form, i.e., \(f(x)=\frac{1}{n}\sum_{i=1}^n f_i(x)\) and individual component gradients are accessible, (ii) a stochastic zeroth-order oracle, where only noisy evaluations of \(f\) are available. Our main contribution is a general framework for quantumly accelerating classical stochastic sampling algorithms, such as Langevin Monte Carlo (LMC) and Hamiltonian Monte Carlo (HMC), by replacing stochastic gradient computations with variance-controlled quantum mean and gradient estimation subroutines. In contrast to prior quantum sampling approaches based on quantum walks, our methods do not require reversibility or exact gradient access, and preserve the structure of the underlying (possibly nonreversible) Markov chain. In the stochastic gradient oracle model, we integrate unbiased quantum mean estimation with classical variance-reduction techniques, including stochastic variance-reduced gradients (SVRG) and control variates (CV). By jointly optimizing the target variance of quantum estimators and the frequency of full-gradient recomputation, we obtain provable improvements in gradient query complexity over the best known classical samplers. These results apply both to strongly log-concave and to non-logconcave distributions satisfying a log-Sobolev inequality, with convergence guarantees in Wasserstein distance and Kullback--Leibler divergence. In the stochastic zeroth-order model, we develop new quantum gradient estimation procedures that are robust to noisy and potentially unbounded function evaluations. These estimators lead to improved evaluation complexity for quantum-accelerated LMC and HMC under standard smoothness assumptions. Finally, we show that faster quantum sampling yields quantum speedups for optimization, including nonsmooth and approximately convex objectives. This recovers known quantum advantages for finite-sum optimization and establishes new improvements in the zeroth-order stochastic setting.</p>
             </div>
           </dialog>
         </div>
